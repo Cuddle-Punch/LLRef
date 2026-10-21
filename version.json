@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "updateurl": "http://cuddlepunch.lol",
-  "brandurl": "http://cuddlepunch.lol",
-  "support": "support@cuddlepunch.lol",
-  "bugreport": "support@cuddlepunch.lol",
+  "updateurl": "https://cuddlepunch.lol/locallair/",
+  "brandurl": "https://cuddlepunch.lol",
+  "support": "support+locallair@cuddlepunch.lol",
+  "bugreport": "support+locallairbug@cuddlepunch.lol",
   "notes": "Initial release.",
-  "licenseurl": "http://cuddlepunch.lol"
+  "licenseurl": "https://cuddlepunch.lol"
 }
