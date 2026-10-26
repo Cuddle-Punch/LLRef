@@ -38,12 +38,13 @@ permits despite this restriction.
 5. How the app runs, and what it sends
 LocalLair runs on your own computer. Your campaigns, maps, journals, and other
 game data are stored locally on your machine — we don't host them and we can't see
-them. Because your data is stored only on your computer, please keep backups; the
-app's Backup feature makes this easy. To work, the app makes a few lightweight network requests: it checks whether a license key has been deactivated, re-verifies your license, and checks whether a newer version is available; keys bought
-through Gumroad are also verified with Gumroad. The app needs to connect to the
-internet at least once every 30 days to re-verify your license. If it can't, it
-keeps working and shows a warning for 14 more days, then pauses until it can
-connect again. Your game data is never affected.
+them. Because your data is stored only on your computer, please keep backups; the app's 
+Backup feature makes this easy. To work, the app makes a few lightweight network 
+requests: it checks whether a license key has been deactivated, re-verifies your license, 
+and checks whether a newer version is available; keys bought through Gumroad are also 
+verified with Gumroad. The app needs to connect to the internet at least once every 30 
+days to re-verify your license. If it can't, it keeps working and shows a warning for 14 
+more days, then pauses until it can connect again. Your game data is never affected.
 
 When you choose to play online, the app downloads Cloudflare's free tunnel tool
 (cloudflared) the first time, then opens a secure tunnel so your players can reach
@@ -91,3 +92,8 @@ conflict-of-laws rules.
 12. Contact
 Questions, license trouble, or anything else — email support@cuddlepunch.lol or
 visit https://cuddlepunch.lol/
+
+13. Third-party software
+LocalLair includes Cytoscape.js (© The Cytoscape Consortium) and go-qrcode
+(© Tom Harwood), both used under the MIT License. Online play uses Cloudflare's
+cloudflared, which is downloaded separately and covered by Cloudflare's own terms.
