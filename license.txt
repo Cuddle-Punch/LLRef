@@ -14,16 +14,19 @@ and the players you invite.
 
 2. Your license key
 Your license is tied to your name and email and is for your own use. Please don't
-share, publish, resell, or give away your license key or the app's installer. Keys
+share, publish, resell, or give away your license key or the app download. Keys
 that are shared or abused may be deactivated. If a purchase is refunded or reversed
-(for example, a chargeback), the license tied to it may be turned off.
+(for example, a chargeback), the license tied to it may be turned off. Trial
+licenses stop unlocking the app when the trial period ends.
 
 3. Your players
 People you invite to a game — over your local network or an online link — do not
 need their own license to join; one licensed copy covers your table. You're
 responsible for the invite links you create and who you share them with. Anyone
-with an active link can join your game as a player until you go offline, so only
-share links with people you trust.
+with an active online link can join your game as a player until you go offline or
+refresh the link (which ends the old one), so only share links with people you
+trust. For local network play, you can set a Room Code so only people who have it
+can join.
 
 4. What you may not do
 You may not: resell, rent, sublicense, or redistribute the app; share your license
@@ -35,12 +38,19 @@ permits despite this restriction.
 5. How the app runs, and what it sends
 LocalLair runs on your own computer. Your campaigns, maps, journals, and other
 game data are stored locally on your machine — we don't host them and we can't see
-them. To work, the app makes a few lightweight network requests: it verifies your
-license, checks whether a key has been deactivated, and checks whether a newer
-version is available. When you choose to play online, the app opens a secure tunnel
-(via Cloudflare) so your players can reach your game over the internet; that tunnel
-is only running while you've chosen to be online. The app has no user accounts and
-collects no more than it needs to do the above.
+them. Because your data is stored only on your computer, please keep backups; the
+app's Backup feature makes this easy. To work, the app makes a few lightweight network requests: it checks whether a license key has been deactivated, re-verifies your license, and checks whether a newer version is available; keys bought
+through Gumroad are also verified with Gumroad. The app needs to connect to the
+internet at least once every 30 days to re-verify your license. If it can't, it
+keeps working and shows a warning for 14 more days, then pauses until it can
+connect again. Your game data is never affected.
+
+When you choose to play online, the app downloads Cloudflare's free tunnel tool
+(cloudflared) the first time, then opens a secure tunnel so your players can reach
+your game over the internet; the tunnel only runs while you've chosen to be online.
+Your game data never leaves your computer except to the players you invite. Like
+any web request, these services see your IP address; we don't receive or store it.
+The app has no accounts with us and sends us no personal data.
 
 6. Updates
 We may release updates, fixes, and improvements from time to time. We hope to keep
@@ -50,8 +60,10 @@ terms.
 
 7. If your license is turned off
 If this agreement is violated, or a purchase is reversed, your license may be
-deactivated, and the app may stop unlocking. If you think that's happened in error,
-get in touch and we'll sort it out.
+deactivated, and the app may stop unlocking. If the app can't re-verify your
+license (see section 5), it pauses until it can connect; that isn't a
+deactivation. If you think something's happened in error, get in touch and we'll
+sort it out.
 
 8. No warranty
 LocalLair is provided "as is" and "as available", without warranties of any kind,
@@ -68,8 +80,9 @@ limited to the amount you paid for LocalLair.
 
 10. Changes to this agreement
 We may update this agreement as the app changes. The current version is always the
-one shown in the app and published with it; continuing to use the app after a
-change means you accept the updated terms.
+one shown in the app and published with it, and we'll show the updated terms in the
+app. If you don't agree with a change, you can stop using the app; continuing to
+use it means you accept the update.
 
 11. Governing law
 This agreement is governed by the laws of Washington, USA, without regard to
@@ -77,4 +90,4 @@ conflict-of-laws rules.
 
 12. Contact
 Questions, license trouble, or anything else — email support@cuddlepunch.lol or
-visit cuddlepunch.lol
+visit https://cuddlepunch.lol/
