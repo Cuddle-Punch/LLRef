@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "minversion": "1.0.0",
   "updateurl": "https://cuddlepunch.lol/locallair/",
+  "pluginurl": "https://cuddlepunch.lol/locallair/plugins/",
   "brandurl": "https://cuddlepunch.lol",
   "support": "support+locallair@cuddlepunch.lol",
   "bugreport": "support+locallairbug@cuddlepunch.lol",
